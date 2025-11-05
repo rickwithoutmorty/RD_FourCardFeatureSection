@@ -93,3 +93,9 @@ article h3 {
     font-weight: 500;
     color: var(--color-grey-500);
 }
+
+article figure {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
