@@ -1,6 +1,7 @@
 :root {
     --color-grey-500: rgb(77, 79, 98);
     --color-grey-400: rgb(106, 113, 120);
+    --color-grey-shadow: rgb(211, 211, 211);
     --color-white: rgb(255, 255, 255);
     --color-red: rgb(234, 84, 84);
     --color-cyan: rgb(68, 211, 210);
@@ -55,4 +56,31 @@ header p {
     text-align: center;
     font-size: 0.95rem;
     font-weight: 300;
+}
+
+main {
+    display: grid;
+    gap: 2rem;
+}
+
+article:nth-child(1) {
+    border-top: 0.2rem solid var(--color-cyan);
+}
+
+article:nth-child(2) {
+    border-top: 3px solid var(--color-red);
+}
+
+article:nth-child(3) {
+    border-top: 3px solid var(--color-orange);
+}
+
+article:nth-child(4) {
+    border-top: 3px solid var(--color-blue);
+}
+
+article {
+    padding: 1.5rem;
+    box-shadow: 0px 5px 15px var(--color-grey-shadow);
+    border-radius: 5px;
 }
