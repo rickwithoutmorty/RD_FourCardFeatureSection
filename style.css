@@ -9,6 +9,12 @@
     --font-poppins: "Poppins", "sans-serif";
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: (var(--color-white));
     display: flex;
@@ -21,6 +27,7 @@ header {
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 h1,
