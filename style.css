@@ -60,6 +60,8 @@ header p {
 main {
     display: grid;
     gap: 2rem;
+    grid-template-columns: minmax(18.75rem, 21.9rem);
+    justify-content: center;
 }
 
 article:nth-child(1) {
