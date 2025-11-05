@@ -1,3 +1,13 @@
+:root {
+    --color-grey-500: rgb(77, 79, 98);
+    --color-grey-400: rgb(106, 113, 120);
+    --color-white: rgb(255, 255, 255);
+    --color-red: rgb(234, 84, 84);
+    --color-cyan: rgb(68, 211, 210);
+    --color-blue: rgb(84, 158, 242);
+    --color-orange: rgb(252, 174, 74 );
+}
+
 body {
-    background-color: red;
+    background-color: (var(--color-white));
 }
